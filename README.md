@@ -2,15 +2,15 @@
 
 ## Project Overview
 
-In this project, you'll implement SLAM (Simultaneous Localization and Mapping) for a 2 dimensional world! You’ll combine what you know about robot sensor measurements and movement to create a map of an environment from only sensor and motion data gathered by a robot, over time. SLAM gives you a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. This is an active area of research in the fields of robotics and autonomous systems. 
+In this project, I implemented SLAM (Simultaneous Localization and Mapping) for a 2 dimensional world! I combined what I know about robot sensor measurements and movement to create a map of an environment from only sensor and motion data gathered by a robot, over time. SLAM gives us a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. This is an active area of research in the fields of robotics and autonomous systems. 
 
-*Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using *only* sensor and motion data collected by that robot. This is just one example for a 50x50 grid world; in your work you will likely generate a variety of these maps.*
+*Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using *only* sensor and motion data collected by that robot. This is just one example for a 50x50 grid world; in general you will likely generate a variety of these maps.*
 
 <p align="center">
   <img src="./images/robot_world.png" width=50% height=50% />
 </p>
 
-The project will be broken up into three Python notebooks; the first two are for exploration of provided code, and a review of SLAM architectures, **only Notebook 3 and the `robot_class.py` file will be graded**:
+The project will be broken up into three Python notebooks;
 
 __Notebook 1__ : Robot Moving and Sensing
 
@@ -27,8 +27,8 @@ All of the starting code and resources you'll need to compete this project are i
 
 1. Clone the repository, and navigate to the downloaded folder.
 ```
-git clone https://github.com/udacity/P3_Implement_SLAM.git
-cd P3_Implement_SLAM
+git clone https://github.com/Thayjes/Graph_SLAM.git
+cd Graph_SLAM
 ```
 
 2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
