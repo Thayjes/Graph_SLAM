@@ -44,7 +44,7 @@ cd Graph_SLAM
 	activate cv-nd
 	```
 	
-	At this point your command line should look something like: `(cv-nd) <User>:P3_Implement_SLAM <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
+	At this point your command line should look something like: `(cv-nd) <User>:Graph_SLAM <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 1. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
 ```shell
 cd
-cd P3_Implement_SLAM
+cd Graph_SLAM
 ```
 
 2. Open the directory of notebooks, using the below command. You'll see all of the project files appear in your local environment; open the first notebook and follow the instructions.
@@ -74,12 +74,6 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 
 Your project will be reviewed against the project [rubric](#rubric).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
 
-
-## Project Submission
-
-When you are ready to submit your project, collect all of your project files -- all executed notebooks, and python files -- and compress them into a single zip archive for upload.
-
-Alternatively, your submission could consist of only the **GitHub link** to your repository with all of the completed files.
 
 <a id='rubric'></a>
 ## Project Rubric
